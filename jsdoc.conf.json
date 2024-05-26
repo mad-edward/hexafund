@@ -1,0 +1,13 @@
+{
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "source": {
+    "include": ["config", "constants", "controllers", "middleware", "models", "routers"],
+    "exclude": ["node_modules"]
+  },
+  "opts": {
+    "destination": "./docs",
+    "recurse": true
+  }
+}
