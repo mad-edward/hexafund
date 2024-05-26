@@ -92,7 +92,6 @@ const generate_Applicant_CSV = async () => {
     const csv = json2csv.parse(csvData, {
         delimiter: ",",
         eol: "\n"
-        
     });
     console.log(csv);
 
